@@ -39,3 +39,8 @@ img {
     padding: 5px;
     width: 300px;
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+}

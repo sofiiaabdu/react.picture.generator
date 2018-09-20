@@ -7,7 +7,7 @@ const AllImages = (props) => {
         )
     })
     return(
-        <div>
+        <div class="wrapper">
             {images}
         </div>
     )

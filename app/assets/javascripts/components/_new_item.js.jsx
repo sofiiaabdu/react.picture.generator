@@ -1,8 +1,6 @@
 const NewImage = (props) => {
     let formFields = {}
 
-
-
     return(
         <form onSubmit={ (e) => { props.handleFormSubmit(formFields.url.value); e.target.reset();}
         }>
